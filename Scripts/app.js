@@ -2,13 +2,13 @@
 
 /*Author: Antanik Mitra
   File: app.js
-  Website: http://assignment2-comp1073.azurewebsites.net/
+  Website: http://tom-assignment3.azurewebsites.net/
 */
 
 "use strict";
 // setup your IIFE(Immediately Invoked Function Expression)
 (function () {
-
+/*
    // initializing variable in contact page form
     var firstName = document.getElementById("firstName");
     var lastName = document.getElementById("lastName");
@@ -28,9 +28,9 @@
         console.log("Comment: " + comment.value);
     });
     
-    
+ */   
      var request = new XMLHttpRequest();
-    request.open('GET', '/info.json', true);
+    request.open('GET', '../info.json', true);
     request.addEventListener('readystatechange', function() {
         // wait for file to finish loading
         if (request.readyState === 4 && request.status === 200) {
