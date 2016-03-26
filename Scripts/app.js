@@ -2,7 +2,7 @@
 
 /*Author: Antanik Mitra
   File: app.js
-  Website: http://tom-assignment3.azurewebsites.net/
+  Website: http://tom-assg3.azurewebsites.net/
 */
 
 
